@@ -5,8 +5,7 @@
 
  
 
-[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/Shakti1590/Hacktoberfest2022)
-
+[![Open Source Love]
  
 
 
