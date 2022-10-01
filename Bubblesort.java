@@ -1,3 +1,4 @@
+// The Bubble sort algorithm compares each pair of elements in an array and swaps them if they are out of order until the entire array is sorted. For each element in the list, the algorithm compares every pair of elements.
 // Java program for implementation of Bubble Sort
 class BubbleSort {
 	void bubbleSort(int arr[])
