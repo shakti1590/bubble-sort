@@ -32,4 +32,5 @@ class BubbleSort {
 		ob.printArray(arr);
 	}
 }
+// Instead of searching an array as a whole, the bubble sort works by comparing adjacent pairs of objects in the array.  If the objects are not in the correct ordered, they are swapped so that the largest of the two moves up.
 /* This code is contributed by shakti */
