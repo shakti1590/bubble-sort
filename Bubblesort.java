@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 // Java program for implementation of Bubble Sort
+/*Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order*/
 class BubbleSort {
 	void bubbleSort(int arr[])
 	{
@@ -39,11 +40,11 @@ class BubbleSort {
 	public static void main(String args[])
 	{
 		BubbleSort ob = new BubbleSort();
-		int arr[] = { 62, 34, 25, 12, 22, 10, 90 };
+		int arr[] = { 60, 44, 35, 10, 23, 20, 70 };
 		ob.bubbleSort(arr);
 		// System.out.println("Sorted array");
 		// ob.printArray(arr);
 	}
 }
 
-/* This code is contributed by shakti */
+
