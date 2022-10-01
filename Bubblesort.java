@@ -26,10 +26,11 @@ class BubbleSort {
 	public static void main(String args[])
 	{
 		BubbleSort ob = new BubbleSort();
-		int arr[] = { 64, 34, 25, 12, 22, 10, 90 };
+		int arr[] = { 62, 34, 25, 12, 22, 10, 90 };
 		ob.bubbleSort(arr);
 		System.out.println("Sorted array");
 		ob.printArray(arr);
 	}
 }
+// Instead of searching an array as a whole, the bubble sort works by comparing adjacent pairs of objects in the array.  If the objects are not in the correct ordered, they are swapped so that the largest of the two moves up.
 /* This code is contributed by shakti */
