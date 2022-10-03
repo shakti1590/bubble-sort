@@ -19,11 +19,11 @@ public class BubbleSort {
  }
  }
  }
- System.out.println("Sorted Array: " + Arrays.toString(arrA));
+ System.out.println("Sorted Array : " + Arrays.toString(arrA));
  }
 
  public static void main(String[] args) {
- int [] arrA = {5, 1, 9, 3, 2, 10};
+ int [] arrA = {5, 1, 7, 3, 2, 10};
  sort(arrA);
  }
 }
