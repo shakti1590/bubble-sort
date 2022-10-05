@@ -19,7 +19,7 @@ class BubbleSort {
 				}
 	}
 
-	/* Prints the array */
+	
 	void printArray(int arr[])
 	{
 		int n = arr.length;
