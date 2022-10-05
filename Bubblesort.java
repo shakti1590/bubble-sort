@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 // Java program for implementation of Bubble Sort
+// Bubble sort is repeatedly swap two adjacent elements if they are in wrong order
 
 
 class BubbleSort {
