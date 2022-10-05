@@ -15,7 +15,7 @@ class BubbleSort {
 					// swap arr[j+1] and arr[j]
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
-					arr[j + 1] = temp; //this will swap the elements
+					arr[j + 1] = temp; 
 				}
 	}
 
