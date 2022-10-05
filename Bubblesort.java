@@ -1,3 +1,4 @@
+//importing java.util.Arrays class
 import java.util.Arrays;
 
 // Java program for implementation of Bubble Sort
@@ -34,7 +35,12 @@ class BubbleSort {
 	{
 		BubbleSort ob = new BubbleSort();
 		int arr[] = { 64, 34, 25, 12, 22, 11, 90 }; //given inputs
+		//printing input array
+		System.out.println("Input array");
+		ob.printArray(arr);
+		//calling bubble sort
 		ob.bubbleSort(arr);
+		//printing sorted array
 		System.out.println("Sorted array");
 		ob.printArray(arr);
 	}
