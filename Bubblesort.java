@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 // Java program for implementation of Bubble Sort
 // Bubble sort is repeatedly swap two adjacent elements if they are in wrong order
-
+//Bubble sort is a sorting algorithm that compares two adjacent elements and swaps them until they are in the intended order.
 
 class BubbleSort {
 	void bubbleSort(int arr[]) 
