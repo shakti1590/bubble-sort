@@ -11,6 +11,7 @@ public class BubbleSort {
  for (int i = 0; i <size–1 ; i++) {
  for (int j = 0; j <size–i–1 ; j++) {
  //check the adjacent elements
+//  if(arrA[j]<arrA[j+1]) --- hima----
  if(arrA[j]>arrA[j+1]){
  //swap the elements
  int temp = arrA[j];
