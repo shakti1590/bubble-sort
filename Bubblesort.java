@@ -1,5 +1,5 @@
 //importing java.util.Arrays class
-import java.util.Arrays;
+import java.util.*;
 
 // Java program for implementation of Bubble Sort
 // Bubble sort is repeatedly swap two adjacent elements if they are in wrong order
@@ -34,7 +34,15 @@ class BubbleSort {
 	public static void main(String args[])
 	{
 		BubbleSort ob = new BubbleSort();
-		int arr[] = { 64, 34, 25, 12, 22, 11, 90 }; 
+		// taking array as input
+		Scanner sc=new Scanner(System.in);
+		//size of input array
+		int p=sc.nextInt();
+		int[] arr = new int[p];  
+		for(int i=0; i<p; i++)  
+        {  
+        	arr[i]=sc.nextInt();  
+        } 
 		//printing input array
 		System.out.println("Input array");
 		ob.printArray(arr);
