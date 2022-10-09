@@ -20,7 +20,7 @@ class BubbleSort {
 				}
 	}
 
-	
+	//method to print the array
 	void printArray(int arr[])
 	{
 		
