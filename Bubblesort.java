@@ -50,3 +50,4 @@ class BubbleSort {
 	}
 }
 /* This code is contributed by Shakti */
+//it is a simple sorting algorithm
