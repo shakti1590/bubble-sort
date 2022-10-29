@@ -3,6 +3,7 @@ import java.util.*;
 
 
 class BubbleSort {
+
 	void bubbleSort(int arr[]) 
 	{
 		
@@ -11,10 +12,15 @@ class BubbleSort {
 			for (int j = 0; j < arr.length - i - 1; j++)
 				if (arr[j] > arr[j + 1]) {
 					// swap arr[j+1] and arr[j]
-					int temp = arr[j];
-					arr[j] = arr[j + 1];
-					arr[j + 1] = temp; 
+					swap(arr, j);
 				}
+	}
+
+	// separation into own method makes code more readable.
+	private void swap(int[] arr, int j) {
+		int temp = arr[j];
+		arr[j] = arr[j + 1];
+		arr[j + 1] = temp;
 	}
 
 	//method to print the array
@@ -29,24 +35,24 @@ class BubbleSort {
 	// Driver method to test above
 	public static void main(String args[])
 	{
-		BubbleSort ob = new BubbleSort();
+		BubbleSort sort = new BubbleSort();
 		// taking array as input
-		Scanner sc=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		//size of input array
-		int p=sc.nextInt();
-		int[] arr = new int[p];  
-		for(int i=0; i<p; i++)  
+		int inputSize = scanner.nextInt();
+		int[] input = new int[inputSize];
+		for(int i=0; i<inputSize; i++)
         {  
-        	arr[i]=sc.nextInt();  
+        	input[i]=scanner.nextInt();
         } 
 		//printing input array
 		System.out.println("Input array");
-		ob.printArray(arr);
+		sort.printArray(input);
 		//calling bubble sort
-		ob.bubbleSort(arr);
+		sort.bubbleSort(input);
 		//printing sorted array
 		System.out.println("Sorted array");
-		ob.printArray(arr);
+		sort.printArray(input);
 	}
 }
 /* This code is contributed by Shakti */
