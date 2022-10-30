@@ -45,12 +45,9 @@ class BubbleSort {
         {  
         	input[i]=scanner.nextInt();
         } 
-		//printing input array
 		System.out.println("Input array");
 		sort.printArray(input);
-		//calling bubble sort
 		sort.bubbleSort(input);
-		//printing sorted array
 		System.out.println("Sorted array");
 		sort.printArray(input);
 	}
