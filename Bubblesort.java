@@ -6,7 +6,6 @@ class BubbleSort {
 
 	void bubbleSort(int arr[]) 
 	{
-		
 		//Bubble sort
 		for (int i = 0; i < arr.length - 1; i++)
 			for (int j = 0; j < arr.length - i - 1; j++)
@@ -36,9 +35,7 @@ class BubbleSort {
 	public static void main(String args[])
 	{
 		BubbleSort sort = new BubbleSort();
-		// taking array as input
 		Scanner scanner=new Scanner(System.in);
-		//size of input array
 		int inputSize = scanner.nextInt();
 		int[] input = new int[inputSize];
 		for(int i=0; i<inputSize; i++)
@@ -53,4 +50,3 @@ class BubbleSort {
 	}
 }
 /* This code is contributed by Shakti */
-
