@@ -18,9 +18,9 @@ class BubbleSort {
 
 	// separation into own method makes code more readable.
 	private void swap(int[] arr, int j) {
-		int temp = arr[j];
-		arr[j] = arr[j + 1];
-		arr[j + 1] = temp;
+		int temp = arr[j+1];
+		arr[j+1] = arr[j];
+		arr[j] = temp;
 	}
 
 	//method to print the array
@@ -45,12 +45,11 @@ class BubbleSort {
         {  
         	input[i]=scanner.nextInt();
         } 
-		System.out.println("Input array");
+		System.out.println("Input array: ");
 		sort.printArray(input);
 		sort.bubbleSort(input);
-		System.out.println("Sorted array");
+		System.out.println("Sorted array: ");
 		sort.printArray(input);
 	}
 }
-/* This code is contributed by Shakti */
 
